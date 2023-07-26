@@ -41,7 +41,7 @@ async function tvl() {
 
   const legacyVaults = [
     new PublicKey("6W9yiHDCW9EpropkFV8R3rPiL8LVWUHSiys3YeW6AT6S"), // legacy usdc vault
-    new PublicKey("2CqkQvYxp9Mq4PqLvAQ1eryYxebUh4Liyn5YMDtXsYci"), // legacy usdc insurance fund
+    new PublicKey("Bzjkrm1bFwVXUaV9HTnwxFrPtNso7dnwPQamhqSxtuhZ"), // legacy usdc insurance fund
   ];
 
   const tvlBalances = await getTokenAccountBalances([
